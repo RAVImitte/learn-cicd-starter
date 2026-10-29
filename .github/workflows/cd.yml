@@ -30,7 +30,7 @@ jobs:
         id: auth
         uses: google-github-actions/auth@v2
         with:
-          workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
+          workload_identity_provider: ' projects/145931963849/locations/global/workloadIdentityPools/github'
           service_account: 'cloud-run-deployer@notely-513103.iam.gserviceaccount.com'
 
       - name: Set up Cloud SDK
